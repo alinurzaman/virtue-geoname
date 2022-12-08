@@ -40,7 +40,7 @@ public class GeonameController {
                 return null;
             list = geonameService.findGeonameByNameLatitudeLongitude(name, lat);
         }
-        // list projection
+        // list projection 232
         List<GeonameProjection> listProjection = new ArrayList<>();
         for (int i = 0; i < list.size(); i++) {
             String country = "";
